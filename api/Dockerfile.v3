@@ -1,7 +1,8 @@
 # Compile Image 
 ######################
 FROM python:3.7-slim AS compile-image
-RUN ls -al /workspace
+RUN pwd
+RUN ls -al
 
 # Install Python Packages
 WORKDIR /app
